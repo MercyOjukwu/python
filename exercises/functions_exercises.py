@@ -18,8 +18,5 @@ def get_digit(number: int, position: int) -> int:
     """
     return number // (10 ** position) % 10
 
+
 print(get_digit(234, 0))
-
-
-
-
